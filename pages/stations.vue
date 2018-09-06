@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      Map
+      Stationen
     </div>
   </section>
 </template>
