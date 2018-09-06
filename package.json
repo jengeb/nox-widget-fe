@@ -1,7 +1,7 @@
 {
   "name": "nox-widget-fe",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "NOX widget frontend code",
   "author": "Jenny Gebske <jennifer@gebske.de>",
   "private": true,
   "scripts": {
