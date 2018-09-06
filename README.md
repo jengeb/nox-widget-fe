@@ -1,6 +1,6 @@
 # nox-widget-fe
 
-> Nuxt.js project
+> Frontend for NOX-widget
 
 ## Build Setup
 
@@ -18,6 +18,3 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
