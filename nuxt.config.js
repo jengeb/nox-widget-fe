@@ -3,6 +3,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      lang: 'de'
+    },
     title: 'nox-widget-fe',
     meta: [
       { charset: 'utf-8' },
@@ -34,6 +37,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    'bootstrap-vue/nuxt'
+  ]
 }
-
