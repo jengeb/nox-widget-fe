@@ -2,7 +2,7 @@
   <div>
     <section class="container">
       <div>
-        <h1 class="title">
+        <h1>
           Stickoxide
         </h1>
         <div class="links">
