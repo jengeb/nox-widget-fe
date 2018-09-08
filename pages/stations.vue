@@ -1,26 +1,50 @@
 <template>
-  <section class="container">
-    <div>
+  <div class="container">
+    <h2>
       Stationen
+    </h2>
+
+    <ul>
+      <li v-for='(station, index) in stations' :key='index'>
+        {{ station.properties.name }}
+      </li>
+    </ul>
+
+    <div>
+      Jahresmittelwert: {{ annualMeanValue }} µg/m³
     </div>
-  </section>
+    <div>
+      Heute {{ now }}:00 Uhr: {{ nowValue }} µg/m³
+    </div>
+  </div>
 </template>
 
 <script>
+  import stations from '../data/stations.json'
+
   export default {
     components: {},
     data: function () {
-      return {}
+      return {
+        annualMeanValue: '31',
+        nowValue: '21',
+        now: undefined,
+        stations: stations.features
+      }
     },
-    methods: {}
+    methods: {},
+    mounted: function () {
+      this.now = new Date().getHours()
+    }
   }
 </script>
 
 <style scoped>
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    > div {
+      flex: 1;
+    }
   }
 </style>
