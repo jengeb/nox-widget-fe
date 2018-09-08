@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.4904, 13.4392113]
+      },
+      "properties": {
+        "name": "Bernau, Lohmühlenstr.",
+        "street": "Lohmühlenstr.",
+        "streetnumber": "42",
+        "stationcode": "DEBB068",
+        "zip": "16321",
+        "city": "Bernau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.3493597, 13.4230543]
+      },
+      "properties": {
+        "name": "Blankenfelde-Mahlow",
+        "street": "Schulstr.",
+        "streetnumber": "1",
+        "stationcode": "DEBB086",
+        "zip": "15831",
+        "city": "Mahlow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "name": "Brandenburg, Neuendorfer Str.",
+        "street": "Neuendorfer Str.",
+        "streetnumber": "",
+        "stationcode": "DEBB049",
+        "zip": "14770",
+        "city": "Brandenburg"
+      }
+    }
+  ]
+}
