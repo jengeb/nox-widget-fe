@@ -1,8 +1,5 @@
 <template>
   <section class="container">
-    <h2>
-      Map
-    </h2>
   </section>
 </template>
 

@@ -1,19 +1,28 @@
 <template>
   <div>
-    <section class="container">
-      <div>
-        <h1>
-          Stickoxide
-        </h1>
-        <div class="links">
-          <nuxt-link to="/" class="button--grey">Karte</nuxt-link>
-          <nuxt-link to="/stations" class="button--grey">Stationen</nuxt-link>
-        </div>
-      </div>
-    </section>
+    <b-container fluid>
+      <b-row style="text-align:center">
+        <b-col >
+          <h1>
+            Stickoxide
+          </h1>
+          <div class="links">
+            <nuxt-link to="/" class="button--grey">Karte</nuxt-link>
+            <nuxt-link to="/stations" class="button--grey">Stationen</nuxt-link>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
     <nuxt/>
   </div>
 </template>
+
+<script>
+  export default {
+    components: {},
+    methods: {}
+  }
+</script>
 
 <style>
   html {
@@ -38,7 +47,7 @@
     color: #35495e;
     text-decoration: none;
     padding: 10px 30px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
   }
 
   .button--grey:hover {
@@ -48,29 +57,13 @@
 
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .title {
-    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-  }
-
-  .subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
   }
 
   .links {
-    padding: 15px;
+    margin-bottom: 1rem;
   }
+
 </style>
